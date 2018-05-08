@@ -1,0 +1,128 @@
+body{
+	margin: 0 auto;
+	font-family: 'Arial', sans-serif;
+}
+#hero{
+	background-image: url('../img/GameOfCyclesWebsiteBackground.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+	/*z-index : -10;*/
+}
+
+#hero-overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	/*z-index : -5;*/
+}
+.content {
+	/*max-width: 500px;*/
+	/*opacity: 0.5;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.content h1 {
+	margin: 0 auto;
+	font-family: 'Courier', sans-serif;
+	color: #F9F3F4;
+}
+
+
+
+
+
+
+textarea {
+    width: 400px;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
+
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #0000FF;
+    border: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.commentBox {
+    width: 1000px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    z-index : 0;
+}
+
+
+
+
+
+ul {
+	z-index : 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #1ebb90;*/
+    background-color: rgba(0,0,0,0.1);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdown-btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropdown-btn {
+    background-color: #f5f5f5;
+    color: #1ebb90;
+}
+
+li.dropdown {
+    display:inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position:absolute;
+    background-color:#f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu a {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: #1ebb90;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
