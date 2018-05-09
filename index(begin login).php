@@ -14,6 +14,18 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
+<body>
+	<?php
+	echo "<form method= 'POST' action='".getLogin($conn)."'>
+		<input type="text" name="uid">
+		<input type="password" name="pwd">
+		<button type="submit" name='loginSubmit'></button>
+	</form>";
+	echo "<form method= 'POST' action='".userLogout()."'>
+		<button type="submit" name='logoutSubmit'></button>
+	</form>";
+	?>
+	<br><br>
 	<div id = "hero">
 		<div id = "hero-overlay">
 			<div class = "content">
@@ -42,7 +54,6 @@
 					<textarea name='message'></textarea>
 					<br>
 					<button type='submit' name='commentSubmit'>Comment</button>
-					<br><br>
 				</form>";
 
 				getComments($conn);

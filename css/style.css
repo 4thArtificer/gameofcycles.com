@@ -1,37 +1,37 @@
 body{
-	margin: 0 auto;
-	font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
 }
 #hero{
-	background-image: url('../img/GameOfCyclesWebsiteBackground.jpg');
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-	top: 0;
-	bottom: 0;
-	height: 100vh;
-	/*z-index : -10;*/
+    background-image: url('../img/GameOfCyclesWebsiteBackground.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    /*z-index : -10;*/
 }
 
 #hero-overlay{
-	position: absolute;
-	background-color: rgba(0,0,0,0.5);
-	top: 0;
-	bottom: 0;
-	height: 100%;
-	width: 100%;
-	/*z-index : -5;*/
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    /*z-index : -5;*/
 }
 .content {
-	/*max-width: 500px;*/
-	/*opacity: 0.5;*/
-	margin: 0 auto;
-	text-align: center;
+    /*max-width: 500px;*/
+    /*opacity: 0.5;*/
+    margin: 0 auto;
+    text-align: left;
 }
 .content h1 {
-	margin: 0 auto;
-	font-family: 'Courier', sans-serif;
-	color: #F9F3F4;
+    margin: 0 auto;
+    font-family: 'Courier', sans-serif;
+    color: #F9F3F4;
 }
 
 
@@ -72,7 +72,7 @@ button {
 
 
 ul {
-	z-index : 0;
+    z-index : 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
